@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(204, 43%, 93%);
+}
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding: 2em;
+  margin: 4em auto;
+}
+.intro {
+  background-color: white;
+  padding: 1em;
+  /* color: hsl(204, 43%, 93%); */
+  /* padding: 2em; */
+}
+.intro h2 {
+  color: hsl(179, 62%, 43%);
+}
+#para {
+  color: hsl(71, 73%, 54%);
+}
+/* .bottom{
+    display: flex;
+} */
+.card-info {
+  background-color: hsl(179, 62%, 43%);
+  padding: 1em;
+  color: hsl(204, 43%, 93%);
+  /* width: auto; */
+}
+span {
+  color: hsl(218, 22%, 67%);
+}
+button {
+  background-color: hsl(71, 73%, 54%);
+  padding: 0.8em 1.5em;
+  text-align: center;
+  width: 100%;
+  border: none;
+  border-radius: 0.5em;
+  color: aliceblue;
+}
+/* .info2 h2{
+    margin: 0 1.4em;
+} */
+li {
+  list-style: none;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 600px;
+  }
+  .info1 {
+    background: rgb(4, 148, 148);
+  }
+  .bottom {
+    display: flex;
+    /* padding: 0 1em; */
+  }
+  .card-info {
+    padding: 1em 2.5em;
+  }
+}
